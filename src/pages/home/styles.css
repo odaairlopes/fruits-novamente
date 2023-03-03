@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 60px;
+}
+h4 {
+  font-size: 30px;
+}
+
+.main-button {
+  width: 208px;
+  height: 53px;
+  margin: 40px;
+
+  border-radius: 25px;
+  border: none;
+
+  font-weight: bolder;
+  font-size: 16px;
+  text-transform: uppercase;
+
+  background-color: #a5cc51;
+  color: white;
+
+  cursor: pointer;
+}

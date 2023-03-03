@@ -1,0 +1,28 @@
+.modal {
+  width: 85vw;
+  height: 80vh;
+  margin: 0 auto;
+  border: 1px solid green;
+  background-color: #d19a20fa;
+  border-radius: 20px;
+  padding: 20px;
+  color: aliceblue;
+  font-weight: bolder;
+  font-size: 16px;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(154, 62, 62, 0.8);
+}
+
+@media (max-width: 600px){
+  .modal {
+  width: 75vw;
+  height: 80vh;
+  }
+}
